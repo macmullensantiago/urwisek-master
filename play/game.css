@@ -1,0 +1,29 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: Arial;
+    color: #fff;
+}
+canvas,
+main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    touch-action: none;
+}
+
+main {
+    width: 94vw;
+    padding: 2vh 3vw;
+}
+
+[onclick] {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+[onclick]:hover {
+    opacity: 1;
+}
